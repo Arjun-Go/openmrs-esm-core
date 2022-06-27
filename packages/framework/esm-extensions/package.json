@@ -39,6 +39,7 @@
     "@openmrs/esm-api": "3.x",
     "@openmrs/esm-config": "3.x",
     "@openmrs/esm-state": "3.x",
+    "loadash": "4.x",
     "single-spa": "5.x"
   },
   "devDependencies": {

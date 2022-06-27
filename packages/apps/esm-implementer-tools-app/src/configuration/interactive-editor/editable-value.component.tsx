@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
+import cloneDeep from "lodash-es/cloneDeep";
 import isEqual from "lodash-es/isEqual";
 import unset from "lodash-es/unset";
-import cloneDeep from "lodash-es/cloneDeep";
 import Reset16 from "@carbon/icons-react/es/reset/16";
 import Edit16 from "@carbon/icons-react/es/edit/16";
 import styles from "./editable-value.styles.scss";

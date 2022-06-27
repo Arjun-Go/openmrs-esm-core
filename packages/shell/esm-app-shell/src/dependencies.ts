@@ -1,5 +1,6 @@
 import * as dayjs from "dayjs";
 import * as i18next from "i18next";
+import * as lodash from "lodash-es/lodash.default.js";
 import * as react from "react";
 import * as reactDom from "react-dom";
 import * as reactRouterDom from "react-router-dom";
@@ -18,6 +19,7 @@ import * as rxjs from "rxjs";
 export const sharedDependencies = {
   dayjs: () => dayjs,
   i18next: () => i18next,
+  "lodash-es": () => lodash,
   react: () => react,
   "react-dom": () => reactDom,
   "react-router-dom": () => reactRouterDom,

@@ -1,4 +1,4 @@
-import unset from "lodash/unset";
+import unset from "lodash-es/unset";
 import * as Config from "./module-config";
 import {
   MockedStore,

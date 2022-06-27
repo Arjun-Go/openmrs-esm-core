@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@carbon/icons-react": "10.28.0",
-    "carbon-components-react": "7.31.0",
-    "lodash-es": "^4.17.21"
+    "carbon-components-react": "7.31.0"
   },
   "peerDependencies": {
     "@openmrs/esm-framework": ">=3.1.14-pre",
     "carbon-components": "10.x",
     "carbon-components-react": "7.x",
     "carbon-icons": "7.x",
+    "lodash-es": "4.x",
     "react": "16.x",
     "react-dom": "16.x",
     "react-i18next": "11.x",
@@ -57,6 +57,7 @@
     "@types/carbon-components-react": "^7.24.0",
     "ace-builds": "^1.4.14",
     "jest": "^26.6.3",
+    "lodash-es": "^4.17.21",
     "react": "^16.13.1",
     "react-ace": "^9.5.0",
     "react-dom": "^16.13.1",
